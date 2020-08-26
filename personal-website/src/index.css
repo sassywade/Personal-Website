@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(111.34deg, #071115 0%, #071115 100%);
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.g-hr{
+  background-color: white;
+}
+
+
+.g-name{
+  font-weight: bolder;
+}
+
+.g-title{
+  color: #EC62E6;
+}
+
+.g-card{
+  
+}
+
+.g-carousel-container{
+  margin: 0 auto;
+}
+
+.g-carousel{
+  flex-direction: column;
+}
+
+.g-card-image {
+  width: 652px;
+  height: 400px;
+}
+
+.g-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.g-card-Title{
+  font-size: 24px;
+  margin: 0px;
+}
+
+.g-card-sub-title{
+  font-size: 16px;
+  margin: 0px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
